@@ -12,7 +12,7 @@ previewBtn.addEventListener('click', function() {
     document.querySelector(".from-text").textContent = from;
 });
 
-var submitBtn = document.getElementById('saveBtn');
+var submitBtn = document.getElementById('submitBtn');
 submitBtn.addEventListener('click', function() {
     var to = document.getElementById('to').value;
     var from = document.getElementById('from').value;
